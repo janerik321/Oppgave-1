@@ -30,6 +30,19 @@ Try to use both the let and const keywords
 
 //your code here
 
+const userId = "JE";
+let x = 5;
+let y = 3;
+let z = 2;
+let userBanned = true;
+const favoriteGuitarShapes = ["Les Paul", "SG", "Flying V"];
+
+console.log("Task 2");
+console.log(userId);
+console.log(x, y, z);
+console.log(userBanned);
+console.log(favoriteGuitarShapes);
+
 /****************************************************************************** 
 ASSIGNMENT 3
 
@@ -38,6 +51,13 @@ as well as a few of the shorthand operators (++, --, +=, -=)
 ******************************************************************************/
 
 //your code here
+
+x = x + 3 + z * y;
+y++;
+z += 9;
+
+console.log("Task 3");
+console.log(x, y, z);
 
 /****************************************************************************** 
 ASSIGNMENT 4
@@ -57,13 +77,21 @@ Try changing the values of the variables to make sure your IF/ELSE conditional
 can handle all cases correctly 
 ******************************************************************************/
 
-let userName = "";
+let userName = "a";
 let userAge = 18;
 let userIsLoggedIn = false;
 let userIsBlocked = false;
 let goToPage = "";
 
 //your code here
+
+if (userName && userAge >= 18 && !userIsBlocked) {
+  userIsLoggedIn = true;
+  goToPage = "/home";
+  console.log("Welcome back!");
+} else {
+  console.log("Error: Login requirements not met");
+}
 
 /******************************************************************************
 ASSIGNMENT 5
@@ -81,3 +109,7 @@ to see that your conditional is working.
 const userMale = false;
 
 //your code here
+
+const userTitle = userMale ? "Mr." : "Mrs.";
+
+console.log(userTitle);
