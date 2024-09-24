@@ -37,12 +37,6 @@ let z = 2;
 let userBanned = true;
 const favoriteGuitarShapes = ["Les Paul", "SG", "Flying V"];
 
-console.log("Task 2");
-console.log(userId);
-console.log(x, y, z);
-console.log(userBanned);
-console.log(favoriteGuitarShapes);
-
 /****************************************************************************** 
 ASSIGNMENT 3
 
@@ -55,9 +49,6 @@ as well as a few of the shorthand operators (++, --, +=, -=)
 x = x + 3 + z * y;
 y++;
 z += 9;
-
-console.log("Task 3");
-console.log(x, y, z);
 
 /****************************************************************************** 
 ASSIGNMENT 4
@@ -77,7 +68,7 @@ Try changing the values of the variables to make sure your IF/ELSE conditional
 can handle all cases correctly 
 ******************************************************************************/
 
-let userName = "a";
+let userName = "";
 let userAge = 18;
 let userIsLoggedIn = false;
 let userIsBlocked = false;
